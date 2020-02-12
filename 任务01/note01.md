@@ -33,3 +33,25 @@ b = np.array([[3.14],[0.98],[1.32]])
 b = torch.from_numpy(b)  # torch.DoubleTensor
 print(b)
 ```
+```
+#tensor转化为array
+a=torch.ones(3,2)
+a=a.numpy()
+```
+### 3.tensor加法
+[参考](https://www.cnblogs.com/hellcat/p/6850256.html)
+```
+a = torch.ones(2,2)
+b = torch.zeros(2,2)
+
+# 语法一
+print(a+b)
+# 语法二
+print(torch.add(a,b))
+# 语法三
+print(b.add_(a))
+# 语法三
+c = torch.Tensor(2,2)
+torch.add(a,b,out=c)
+print(c)
+```
