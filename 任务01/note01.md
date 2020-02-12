@@ -87,11 +87,13 @@ random.shuffle(list)
 print ("随机排序列表 : ",  list)
 ```
 - **torch.LongTensor()**[参考](https://pytorch.apachecn.org/docs/1.0/tensors.html)
+
 这个的Data_Type是64-bit integer (signed)
 torch.Tensor 是默认的tensor类型 (torch.FloatTensor) 的简称
 一共有八种不同的类型
 
 - **yield**[参考](https://www.jianshu.com/p/d09778f4e055)
+
 for ... in .. 循环中，所有数据都在内存中
 带yield的函数是一个生成器generator,用于迭代
 类似于return的关键字，迭代一次遇见yield就返回后面的值，重点是：下一次迭代时，从上一次迭代遇到的yield后面的代码(下一行)开始执行。
@@ -103,17 +105,19 @@ for ... in .. 循环中，所有数据都在内存中
 Parameters:	
 >loc : 
 >>float or array_like of floats
->>Mean (“centre”) of the distribution.
+Mean (“centre”) of the distribution.
+
 >scale : 
 >>float or array_like of floats
->>Standard deviation (spread or “width”) of the distribution.
+Standard deviation (spread or “width”) of the distribution.
+
 >size : int or tuple of ints, optional
 >>Output shape. If the given shape is, e.g., (m, n, k), then m * n * k samples are drawn. If size is None (default), a single value is returned if loc and scale are both scalars. Otherwise, np.broadcast(loc, scale).size samples are drawn.
 
 Returns:	
 >out : 
 >>ndarray or scalar
->>Drawn samples from the parameterized normal distribution
+Drawn samples from the parameterized normal distribution
 
 
 
