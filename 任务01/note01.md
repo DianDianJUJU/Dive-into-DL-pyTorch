@@ -15,6 +15,21 @@
 ### 2.生成张量
 (```）
 import torch
-
-
+n=10
+a=torch.ones(n)
+b=torch.zeros(n)
+c=torch.Tensor(n,n+1) #未初始化的张量
+d=torch.rand(n,n+1) #随机初始化的张量
+print(d.size()) #查看张量的尺寸
+(```)
+(```)
+#从numpy创建张量
+import numpy 
+import torch
+a = np.array([2.33, 1.07,1.23])
+a = torch.from_numpy(a)  # torch.DoubleTensor
+print(a)
+b = np.array([[3.14],[0.98],[1.32]])
+b = torch.from_numpy(b)  # torch.DoubleTensor
+print(b)
 (```)
