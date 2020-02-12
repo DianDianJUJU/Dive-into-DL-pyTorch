@@ -12,6 +12,10 @@
 [本地安装PyTorch](https://blog.csdn.net/qq_39377418/article/details/100336356 "安装Pytorcn_CSDN")
 官网
 [官网](https://pytorch.org/ " ")
+```
+#输出Torch版本
+print(torch.__version__)
+```
 ### 2.生成张量
 ```
 import torch
