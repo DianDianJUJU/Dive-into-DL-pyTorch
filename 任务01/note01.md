@@ -6,8 +6,15 @@
 ## 模型框架：
   模型     数据集    损失函数   优化函数  
 
-## 线性回归：
-###  1.生成数据集
-使用线性模型来生成数据集
+## PyTorch语法总结
+### 1.安装PyTorch
+参考
+[本地安装PyTorch](https://blog.csdn.net/qq_39377418/article/details/100336356 "安装Pytorcn_CSDN")
+官网
+[官网](https://pytorch.org/ " ")
+### 2.生成张量
+(```）
+import torch
 
-###  2.读取数据集
+
+(```)
